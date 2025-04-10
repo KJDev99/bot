@@ -66,6 +66,11 @@ a {
   color: white;
   margin-top: -8px;
 }
+.nav_main_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .nav_center {
   display: flex;
@@ -73,6 +78,7 @@ a {
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  width: max-content;
 }
 .nav_center p {
   font-family: Inter;
@@ -86,10 +92,16 @@ a {
   color: white;
 }
 
-.nav_right {
+.nav_main_right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+.nav_right {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  cursor: pointer;
   gap: 8px;
 }
 .nav_right div {
@@ -218,6 +230,9 @@ a {
 
   .logo_right img {
     display: none;
+  }
+  .nav_right {
+    cursor: pointer;
   }
 
   .nav_center p,
@@ -1034,6 +1049,8 @@ li span {
   line-height: 30px;
   letter-spacing: 0%;
   vertical-align: middle;
+}
+.footer_content li a {
   color: #e5e5e591;
 }
 .footer .logo {

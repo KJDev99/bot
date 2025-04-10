@@ -21,10 +21,32 @@ button {
 .nav_content {
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .logo {
   display: flex;
+}
+.nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.nav_links a {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  color: var(--bg);
+  background: var(--white60);
+}
+.logo a {
+  display: flex;
+}
+
+.nav_main_right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .logo_left p {
@@ -74,6 +96,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  width: max-content;
   gap: 8px;
   text-decoration: none;
 }
