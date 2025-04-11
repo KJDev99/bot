@@ -24,7 +24,7 @@
             </div>
             <div class="nav_links">
               <a href="">Помощь</a>
-              <a href="">История сделок</a>
+              <a href="">История&nbsp;сделок</a>
               <a href="">Настройки </a>
             </div>
             <div class="nav_main_right">
@@ -177,62 +177,66 @@
 
           <section class="balance-panel">
             <h2>ОБЩИЙ БАЛАНС: $000.00000000</h2>
-            <table>
-              <thead>
-                <tr>
-                  <th>Актив</th>
-                  <th>Количество</th>
-                  <th>Стоимость в USD</th>
-                  <th>Трейдинг</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>BTC</td>
-                  <td>$000.0000000</td>
-                  <td>$000.000000</td>
-                  <td><div class="switch"></div></td>
-                </tr>
-                <tr>
-                  <td>ETH</td>
-                  <td>$000.0000000</td>
-                  <td>$000.000000</td>
-                  <td><div class="switch"></div></td>
-                </tr>
-                <tr>
-                  <td>LTC</td>
-                  <td>$000.0000000</td>
-                  <td>$000.000000</td>
-                  <td><div class="switch"></div></td>
-                </tr>
-                <tr>
-                  <td>SOL</td>
-                  <td>$000.0000000</td>
-                  <td>$000.000000</td>
-                  <td><div class="switch"></div></td>
-                </tr>
-                <tr>
-                  <td>TON</td>
-                  <td>$000.0000000</td>
-                  <td>$000.000000</td>
-                  <td><div class="switch"></div></td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="balance-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Актив</th>
+                    <th>Количество</th>
+                    <th>Стоимость в USD</th>
+                    <th>Трейдинг</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>BTC</td>
+                    <td>$000.0000000</td>
+                    <td>$000.000000</td>
+                    <td><div class="switch"></div></td>
+                  </tr>
+                  <tr>
+                    <td>ETH</td>
+                    <td>$000.0000000</td>
+                    <td>$000.000000</td>
+                    <td><div class="switch"></div></td>
+                  </tr>
+                  <tr>
+                    <td>LTC</td>
+                    <td>$000.0000000</td>
+                    <td>$000.000000</td>
+                    <td><div class="switch"></div></td>
+                  </tr>
+                  <tr>
+                    <td>SOL</td>
+                    <td>$000.0000000</td>
+                    <td>$000.000000</td>
+                    <td><div class="switch"></div></td>
+                  </tr>
+                  <tr>
+                    <td>TON</td>
+                    <td>$000.0000000</td>
+                    <td>$000.000000</td>
+                    <td><div class="switch"></div></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="trade-mode">
+                <h3>РЕЖИМ ТОРГОВЛИ</h3>
+                <label
+                  ><input type="radio" name="mode" /> По всем активам</label
+                >
+                <label
+                  ><input type="radio" name="mode" /> По выбранным
+                  активам</label
+                >
+              </div>
 
-            <div class="trade-mode">
-              <h3>РЕЖИМ ТОРГОВЛИ</h3>
-              <label><input type="radio" name="mode" /> По всем активам</label>
-              <label
-                ><input type="radio" name="mode" /> По выбранным активам</label
-              >
-            </div>
-
-            <div class="balance-distribution">
-              <h4>РАСПРЕДЕЛЕНИЕ БАЛАНСА USDT</h4>
-              <label for="sol"
-                >SOL: <input type="text" id="sol" name="sol"
-              /></label>
+              <div class="balance-distribution">
+                <h4>РАСПРЕДЕЛЕНИЕ БАЛАНСА USDT</h4>
+                <label for="sol"
+                  >SOL: <input type="text" id="sol" name="sol"
+                /></label>
+              </div>
             </div>
 
             <div class="trade_btn">

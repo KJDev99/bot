@@ -160,6 +160,27 @@ button {
     font-size: 12px;
     line-height: 18px;
   }
+  .nav_links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .nav_links a {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    color: var(--bg);
+    background: var(--white60);
+  }
 }
 
 main {
@@ -542,6 +563,9 @@ body.dark {
     margin: 0.5rem 0;
     padding: 0.5rem;
   }
+  .log-panel {
+    margin-top: 60px;
+  }
 
   .log-box {
     height: 300px;
@@ -623,4 +647,16 @@ body.dark {
     justify-content: center;
     margin-top: 8px;
   }
+}
+
+.trading-active {
+  opacity: 0.5;
+}
+
+.disabled.switch {
+  cursor: not-allowed;
+}
+
+.action-btn.active {
+  background: linear-gradient(90deg, #f41b1b 1%, #6c6969 100%);
 }
